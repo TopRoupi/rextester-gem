@@ -1,5 +1,17 @@
 # rextester-gem
+
 interface for rextester api
+
+# instalation
+
+```bash
+gem install rextester
+```
+
+```ruby
+#gemfile
+gem 'rextester'
+```
 
 # initialize Rextester
 
@@ -9,7 +21,7 @@ args:
 id of code's language, a list of ids is avaliable on https://rextester.com/main
 - code
 - input
-- compuler_args
+- compiler_args
 
 # #run
 
