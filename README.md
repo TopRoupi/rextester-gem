@@ -9,11 +9,13 @@ gem install rextester
 ```
 
 ```ruby
-#gemfile
+# gemfile
 gem 'rextester'
 ```
 
-# initialize Rextester
+# use
+
+## initialize Rextester
 
 args:
 
@@ -27,7 +29,7 @@ id of code's language, a list of ids is avaliable on https://rextester.com/main
 
 return the output of the code execution, and sets additional attributes like errors and warnings
 
-# exemple
+example
 
 ```ruby
 require 'rextester'
